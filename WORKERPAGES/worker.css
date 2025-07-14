@@ -1,0 +1,167 @@
+
+* {
+    font-family: "Rubik", sans-serif;
+}
+
+body {
+    margin: 0px;
+    background-color: rgb(200, 255, 205);
+    background-image: linear-gradient(rgba(94, 165, 181, 0.329), rgba(79, 149, 168, 0.41)), url('../mainfiles/login_background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bodycolumn {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.mainheader {
+    background-color: #28A745;
+    display: flex;
+    justify-content: space-between;
+}
+
+.mainheader div {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    gap: 30px;
+    padding: 5px;
+    align-items: center;
+}
+
+.mainheader img {
+    width: 170px;
+    height: auto;
+}
+
+.headerlink {
+    text-decoration: none;
+    color: rgb(6, 56, 7);
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+}
+
+.headerlink:hover {
+    background-color: rgb(107, 204, 110);
+}
+
+.logoutlink {
+    text-decoration: none;
+    color: rgb(6, 56, 7);
+    padding-right: 30px;
+    padding-left: 10px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+}
+
+.logoutlink:hover {
+    color: rgb(202, 254, 203);
+}
+
+.mainfooter {
+    color: rgb(6, 56, 7);
+    background-color: #28A745;  
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 10px;
+    margin-top: auto;
+}
+
+.aboulink {
+    text-decoration: none;
+    color: rgb(6, 56, 7);
+    transition: color 0.2s ease
+}
+
+.aboulink:hover {
+    text-decoration: none;
+    color: rgb(202, 254, 203);
+}
+
+
+.announcementbox {
+    width: 95%;
+    height: 95%;
+    background-color: rgb(204, 247, 207);
+    border: 3px solid rgb(24, 42, 12);
+    align-items: center;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+     display: flex;
+    flex-direction: column;
+    max-width: none; /* just in case */
+    box-sizing: border-box;
+    padding: 15px;
+    gap: 10px;
+    border-radius: 10px;
+}
+
+.announcementblock h3 {
+  margin: 3px 0; 
+}
+
+.centerblock {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.posts {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 95%;
+    gap: 15px;
+    justify-content: space-between;
+    margin: auto;
+}
+
+
+.announcementblock {
+    min-width: 45%;
+    max-width: 90%;
+    display: flex;
+    flex-direction: column;
+
+    height: auto;
+    background-color: rgb(73, 193, 81);
+    color: rgb(16, 43, 20);
+    padding: 10px;
+    border: 3px solid rgb(30, 47, 28);
+    border-radius: 10px;
+}
+
+.announcement_text {
+    text-align: justify;
+    align-items: center;
+    padding: 5px;
+    background-color: #c1facf;
+    border: 2px solid black;
+    border-radius: 5px;
+    height: 100%;
+}
+
+.inventoryinput{
+    margin: 0 auto;
+    background-color: #96f599;
+    padding:10px 15px;
+    width: 20%;
+    border-radius: 10px;
+    border: 8px solid black;
+    max-height: 380px;
+    max-width: 650px; 
+
+}
