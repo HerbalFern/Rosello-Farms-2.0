@@ -1,0 +1,266 @@
+
+.bodycolumn {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+* {
+    font-family: "Rubik", sans-serif;
+}
+
+body {
+    margin: 0px;
+    background-color: rgb(200, 255, 205); 
+
+    /* Apparently this liniear gradiant thing makes it more transparent? */
+    background-image: linear-gradient(rgba(94, 165, 181, 0.329), rgba(79, 149, 168, 0.41)), url('mainfiles/login_background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+main {
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.mainheader {
+    background-color: #28A745;
+    display: flex;
+}
+
+
+.mainheader div {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    gap: 30px;
+    padding: 5px;
+    align-items: center;
+}
+
+.mainheader img {
+    width: 170px;
+    height: auto;
+}
+
+.headerlink {
+    text-decoration: none;
+    color: rgb(6, 56, 7);
+
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+}
+
+.headerlink:hover {
+    background-color: rgb(107, 204, 110);
+}
+
+
+.aboulink {
+    text-decoration: none;
+    color: rgb(6, 56, 7);
+    transition: color 0.2s ease;
+
+}
+
+.aboulink:hover {
+    text-decoration: none;
+    color: rgb(202, 254, 203);
+}
+
+
+
+.centerdiv {
+    text-align: justify;
+    align-items: center;
+    font-size: 12px;
+}
+
+.mainfooter {
+    color: rgb(6, 56, 7);
+    background-color: #28A745;  
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 10px;
+    margin-top: auto; /* Apparently this fixes the footer */
+}
+
+.loginbox {
+    /* apparently margin auto centers stuff*/
+    margin: auto;
+
+    position: relative;
+    max-width: 350px;
+    height: 500px;
+    border-radius: 10px;
+    border-style: solid;
+    padding-top: 23px;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: rgb(152, 255, 186);
+    
+    border-width: thick;
+}
+
+.inputbox {
+    width: 270px; 
+    height: 35px; 
+    font-size: 15px;
+    border-radius: 10px;
+    background-color: rgb(219, 248, 221);
+    border: 2px solid black;
+}
+
+/* FOR THE SIGN UP PAGE */
+
+.signup {
+    /* apparently margin auto centers stuff*/
+    margin: auto;
+
+    position: relative;
+    
+    max-width: 400px;
+    height: 550px;
+    width: 100%;
+    border-radius: 10px;
+    border-style: solid;
+    
+    /* Old stuff:
+
+    padding-top: 18px;
+    padding-left: 50px;
+    padding-right: 50px;
+    */
+
+    padding: 15px 20px; /* Simplified padding */
+    background-color: rgb(152, 255, 186);
+    border-width: thick;
+}
+
+.signupbox {
+    width: 240px; 
+    height: 30px; 
+    font-size: 15px;
+    border-radius: 10px;
+    background-color: rgb(219, 248, 221);
+    border: 2px solid black;
+}
+
+
+.smallersignupbox {
+    width: 39.2%; 
+    height: 30px; 
+    font-size: 15px;
+    border-radius: 10px;
+    background-color: rgb(219, 248, 221);
+    border: 2px solid black;
+}
+
+
+.bgreentext {
+    color: rgb(12, 41, 11);
+    font-size: 30px;
+
+}
+
+.linkbgreentext {
+    color: rgb(12, 41, 11);
+    text-decoration: none;
+}
+
+.linkbgreentext:hover {
+    color: rgb(119, 169, 117);
+}
+
+.greenbutton {
+    height: 30px;
+    width: 200px;
+    color: #ffffff;
+    background-color: #28A745;
+    border-radius: 15px;
+    font-size: 16px;
+    border: 1px solid black;
+}
+
+.greenbutton:hover {
+    background-color: #b8ffc8;
+}
+
+.centeredform {
+    text-align: center;
+}
+
+.onevh {
+    font-size: 1.7vh;
+    color: rgb(12, 41, 11);
+}
+
+.mainthing {
+    margin: auto;
+}
+
+.alrsignedintext {
+   color: #273327;
+   font-size: 13px;
+
+   /*text outliens nasab*/
+   -webkit-text-stroke: .3px #111e10;
+   -webkit-text-fill-color: #163416;
+   
+   /* text outlines (origver) */
+
+/* text-shadow:
+   -1px -1px 0 #dcfadc,
+   1px -1px 0 #dcfadc,
+   -1px 1px 0 #dcfadc,
+   1px 1px 0 #dcfadc,  
+   -2px 0 0 #dcfadc,
+   2px 0 0 #dcfadc,
+   0 2px 0 #dcfadc,
+   0 -2px 0 #dcfadc;
+*/
+
+}
+
+.alrsignedintext a {
+    text-decoration: none;    
+}
+ 
+
+.alrsignedintext a:hover {
+    color: #0d1a0d;
+    font-size: 15px;
+    -webkit-text-stroke: .3px #132e14;
+    -webkit-text-fill-color: #d4d6d4;
+
+    text-decoration: none;    
+}
+ 
+
+.divspacebetween {
+    display: flex;
+    justify-content: space-between;
+}
+
+.usertypetext {
+    font-size: 16px;
+}
+
+
+.logoutlink {
+    text-decoration: none;
+    color: rgb(6, 56, 7);
+    padding-right: 30px;
+    padding-left: 10px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+}
+
+.logoutlink:hover {
+    color: rgb(202, 254, 203);
+}
