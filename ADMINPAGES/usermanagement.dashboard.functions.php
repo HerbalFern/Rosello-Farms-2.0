@@ -27,7 +27,7 @@
         }
     }
 
-    if (isset($_POST['update_salary'])){
+    /*if (isset($_POST['update_salary'])){
         $id = $_POST['id'];
         $salary = $_POST['salary'];
 
@@ -45,4 +45,4 @@
             }
             mysqli_stmt_close($stmt);
         }
-    }
+    }*/

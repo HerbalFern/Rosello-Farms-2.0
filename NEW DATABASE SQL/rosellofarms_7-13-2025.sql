@@ -137,9 +137,9 @@ CREATE TABLE `product` (
 
 CREATE TABLE `product_type` (
   `product_type_id` int(11) NOT NULL AUTO_INCREMENT,
-  `product_type` varchar(100) NOT NULL
+  `product_type` varchar(100) NOT NULL,
+  PRIMARY KEY (`product_type_id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
-
 -- --------------------------------------------------------
 
 --

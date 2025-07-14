@@ -22,8 +22,6 @@
                     <div class="sidebardiv"><a href="../ADMINPAGES/currinventory.dashboard.php"><img src="../ADMINPAGES/adminicons/inventory.png"> Current Inventory</a></div>
                     <div class="sidebardiv"><a href="../ADMINPAGES/shopinventory.dashboard.php"><img src="../ADMINPAGES/adminicons/shoppingcart.png"> Shopping Inventory</a></div>
                     <div class="sidebardiv"><a href="#"><img src="../ADMINPAGES/adminicons/usermanagement.png">User Management</a></div>
-                    <div class="sidebardiv"><a href="../ADMINPAGES/statistics.dashboard.php"><img src="../ADMINPAGES/adminicons/statistics.png">Buyer Statistics</a></div>
-                    <div class="sidebardiv"><a href="../ADMINPAGES/createannouncement.dashboard.php"><img src="../ADMINPAGES/adminicons/announcment.png">Create Announcements</a></div>
                 </nav>
         </aside>
     </div>
@@ -96,14 +94,6 @@
                     ?>
                 </select>
                 <br><br>
-                <div>
-                    <label for="salary">Salary (In PHP): &nbsp; ₱</label>
-                    <input type="number" id="salary" name="salary" min="0.01" step="0.01" required>
-                </div>
-                <br>
-                <div style="text-align: right;"> 
-                    <button type="submit" class="greenbutton" name="update_salary">UPDATE</button>
-                </div>
             </form>
             </div>
         </div>

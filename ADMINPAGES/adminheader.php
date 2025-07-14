@@ -2,7 +2,7 @@
     session_start();
     
 
-    if ((!isset($_SESSION["userid"]) || (!isset($_SESSION["username"]))) || $_SESSION["usertype"] !== "admin"){
+    if ((!isset($_SESSION["user_id"]) || (!isset($_SESSION["email"]))) || $_SESSION["user_type_id"] !== 3){
         header('location: ../loginpage.php');
         exit();
     }
@@ -32,7 +32,6 @@
                 <!--ADD an if statement on what link to echo-->             
                 <a href="../ADMINPAGES/admin.php"><img src="../mainfiles/logohd.png" alt="homebutton"></a> 
                 <a href="../ADMINPAGES/admin.php" class="headerlink" style="color: #caf2cb;"> <h3>DASHBOARD</h3></a>
-                <a href="../ExtraPages/announcements.php" class="headerlink"><h3>ANNOUNCEMENTS</h3></a>
             </div> 
 
             <div>
